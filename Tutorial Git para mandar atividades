@@ -1,40 +1,47 @@
-1. Criar a branch
+PASSO A PASSO - CRIAR BRANCH E PULL REQUEST
+1. CRIAR A BRANCH
 
 Dentro da pasta do projeto:
 
-*git checkout -b aulaNumero*
+git checkout -b aulaNumero
 
-2. Adicionar os arquivos
+Cria a branch e já muda para ela automaticamente.
 
-*git add .*  --> Isso adiciona todos os .java (e outros arquivos)
+2. ADICIONAR OS ARQUIVOS
+git add .
 
+Adiciona todos os arquivos do projeto (.java e outros).
 
-3. Fazer o commit
+3. FAZER O COMMIT
+git commit -m "Melhorias calculadora - aulaNumero"
 
-*git commit -m "Melhorias calculadora - aulaNumero"*
+Salva as alterações com uma mensagem descritiva.
 
-4. Dar push da branch
+4. DAR PUSH DA BRANCH
+git push origin aulaNumero
 
-*git push origin aulaNumero*
+Envia a branch para o GitHub.
 
-5. Criar o Pull Request no GitHub
+5. CRIAR O PULL REQUEST NO GitHub
 
--- Agora vai no site, entra no seu repositório, vai aparecer botão:
+No site:
 
-"Compare & pull request"
+Acesse o repositório
 
-Clique e confere:
+Clique em Compare & pull request
+
+Verifique:
 
 base: main
-compare: aula03
+compare: aulaNumero
 
-Clica em:
-"Create pull request"
+Depois clique em:
 
-6. Copiar o link
+Create pull request
+6. COPIAR O LINK
 
-Vai ficar algo tipo:
+O link gerado será parecido com:
 
-*https://github.com/seu-usuario/seu-repo/pull/1*
+https://github.com/seu-usuario/seu-repo/pull/1
 
-Esse link você entrega!
+Esse é o link que deve ser entregue.
